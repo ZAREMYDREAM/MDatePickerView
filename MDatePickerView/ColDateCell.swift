@@ -10,7 +10,7 @@ import UIKit
 
 class ColMonthCell: ColCell {
     
-    let month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+    let month = ["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月"]
     var value = 0
     
     
@@ -54,7 +54,7 @@ class ColMonthCell: ColCell {
 class ColDayCell: ColCell {
     
     var day = 0
-    let week = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+    let week = ["周日","周一","周二","周三","周四","周五","周六"]
     
     override var Selected: [Int] {
         didSet{
